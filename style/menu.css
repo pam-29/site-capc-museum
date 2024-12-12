@@ -9,6 +9,7 @@ section{
 header{
     margin: 0;
     background-color: #FF0505;
+    width: 100%;
     display: flex;
     justify-content: space-around;
 }
@@ -29,6 +30,13 @@ header h2{
     font-family: 'Neue', sans-serif;
     font-weight: 75;
     margin-top: 30px;
+}
+
+.bar{
+    background-color: white;
+    width: 550px;
+    height: 5px;
+    margin: 0%;
 }
 
 nav{
