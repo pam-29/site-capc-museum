@@ -1,0 +1,102 @@
+section h2{
+    font-family: 'Neue', sans-serif;
+    font-weight: 75;
+    margin: 0;
+}
+
+h3, .collection h2{
+    font-family: 'Neue', sans-serif;
+    font-weight: 75;
+    font-size: 50px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.expo1{
+    display: flex;
+}
+.expo-p, .expo-2{
+    font-family: 'Neue', sans-serif;
+    font-weight: 65;
+    text-transform: capitalize;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.photo1{
+    width: 544px;
+    height: 524px;
+    margin-top: 100px;
+}
+
+section div h3, .prochain h4{
+    font-family: 'Neue', sans-serif;
+    font-weight: 75;
+    font-size: 30px;
+    text-decoration: underline;
+}
+section div p, .prochain p, .colle1 p{
+    font-family: 'Neue', sans-serif;
+    font-weight: 10;
+    font-size: 25px;
+}
+
+
+.date{
+    font-family: 'Neue', sans-serif;
+    font-weight: 65;
+    font-size: 20px;
+}
+
+.prochain{
+    margin-top: 200px;
+}
+.grande-photo{
+    margin-top: 100px;
+    width: 100%;
+}
+
+.collection{
+    margin-top: 200px;
+}
+
+.colle1, .colle2, .expo1{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+.part1{
+    max-width: 40%;
+}
+
+.colle1 h2, .colle2 h2, .part1 h2{
+    margin: 50px;
+    font-family: 'Neue', sans-serif;
+    font-weight: 75;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.photo2{
+    width: 544px;
+    height: 524px;
+}
+
+h3 a{
+    color: black;
+}
+
+h3 a:hover{
+    opacity: 70%;
+    
+}
+
+div img:hover{
+    opacity: 60%;
+}
+
+
+
+
+
