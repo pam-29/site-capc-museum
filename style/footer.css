@@ -7,7 +7,7 @@ footer{
 }
 
 .foot{
-    
+
 }
 .foot1{
     display: flex;
@@ -42,6 +42,9 @@ footer{
 margin-bottom: 70px;
 }
 
+.contacts ul li a {
+    color: white;
+}
 .horaires{
     margin-bottom: 70px;
 }

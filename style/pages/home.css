@@ -24,9 +24,10 @@ h3, .collection h2{
 }
 
 .photo1{
-    width: 544px;
-    height: 524px;
+
     margin-top: 100px;
+    width: 100%;
+    height: auto;
 }
 
 section div h3, .prochain h4{
