@@ -11,7 +11,10 @@ header{
     background-color: #FF0505;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+    min-height: 200px;
+    
 }
 h1{
     font-family: 'Neue', sans-serif;
@@ -110,7 +113,47 @@ nav ul li a:hover, nav ul li a:active{
     height: 30px;
 }
 
+.icon-mobile{
+    display: none;
+}
+@media (max-width: 600px) {
+    
+    h1{
+    font-size: 70px;
+    
+    }
+    header h2{
+        font-size: 20px;
+    }
+    .bar2{
+        height: 2px;
+        background-color: white;
+        width: 190px;
+    }
+    .logo {
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .menu{
+        display: none;
+    }
+    header {
+        width: 100%;
+        height: 400px;
+        padding-top: 70px;
+    }
+    .icon-mobile img{
+        width: 26px;
+        height: 26px;
+    }
+    .icon-mobile{
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+    }
 
-
-
+}
 
